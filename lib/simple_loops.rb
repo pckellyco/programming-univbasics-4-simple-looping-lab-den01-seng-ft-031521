@@ -32,7 +32,4 @@ return_string_array(array)
     string_array.push(ele_string)
     count += 1
   end
-  string_array
 end
-
-return_string_array([1, 2, 3, 4])
