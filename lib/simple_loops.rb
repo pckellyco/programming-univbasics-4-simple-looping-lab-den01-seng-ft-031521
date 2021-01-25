@@ -8,7 +8,6 @@ def loop_message_five_times(string)
   end
 end
 
-
 def loop_message_n_times(string, num)
   count = 1
   while count <= num do
@@ -31,5 +30,6 @@ return_string_array(array)
   while array[count] do
     ele_string = array[count].to_s
     string_array.push(ele_string)
+    count += 1
   end
 end
