@@ -34,3 +34,5 @@ return_string_array(array)
   end
   string_array
 end
+
+return_string_array([1, 2, 3, 4])
