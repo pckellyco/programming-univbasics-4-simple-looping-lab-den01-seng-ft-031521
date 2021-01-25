@@ -24,7 +24,7 @@ def output_array(array)
   end
 end
 
-return_string_array(array)
+def return_string_array(array)
   string_array = []
   count = 0
   while count < array.length do
@@ -32,4 +32,5 @@ return_string_array(array)
     string_array.push(ele_string)
     count += 1
   end
+  string_array
 end
